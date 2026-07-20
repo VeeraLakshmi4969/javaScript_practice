@@ -14,7 +14,7 @@ let people = [{name: "nani",age:20},
     {name: "nagur",age:30}
 ]
 people.sort((a,b)=>a.age-b.age);
-console.log(fruits)
+console.log(people)
 // Here,
 // (a,b)=>a-b
 // is called the compare function.

@@ -1,7 +1,39 @@
+// Function -> Uses the 'function' keyword because it is a standalone function.
+function greet() {
+    console.log("Hello");
+}
+
+// Method -> Belongs to an object, so the 'function' keyword is not required.
+const person = {
+    greet() {
+        console.log("Hello");
+    }
+};
+
+// The above method is shorthand for:
+const person2 = {
+    greet: function () {
+        console.log("Hello");
+    }
+};
+
+// Class methods also do not use the 'function' keyword.
+class Student {
+    greet() {
+        console.log("Hello");
+    }
+}
+
+// Summary:
+// function -> Required for standalone functions.
+// method -> No 'function' keyword needed (object/class functions).
+// A method is simply a function that belongs to an object or class.
+// ---------------------------------------------------------------------------
+
 class Dog{
     constructor(name,breed){
         this.name = name;
-        this.bread = this.bread;
+        this.bread = bread;
     }
     bark(){
         console.log(`${this.name} says woof`)
@@ -9,6 +41,8 @@ class Dog{
 }
 const dog = new Dog('buddy','golern retriever');
 dog.bark();
+
+// -------------------------------------------------------------------------------------
 
 class Animal{
     constructor(name){

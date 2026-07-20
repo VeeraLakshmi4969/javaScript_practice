@@ -8,10 +8,10 @@ console.log(num);
 
 let a = 3;
 let b = String(a);
-let c = Boolean(a);
+let c = Boolean(a);  //true
 let d = "abc";
 let e = "124";
-let f = Number(d);
+let f = Number(d);   //NaN
 let g = Number(e);
 
 console.log(a);

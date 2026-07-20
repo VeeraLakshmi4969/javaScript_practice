@@ -29,3 +29,5 @@ class Math{
 }
 console.log(Math.square(9));
 console.log(Math.cube(5));
+
+// we can access static methods with out object
